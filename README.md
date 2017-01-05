@@ -14,5 +14,5 @@ const encPassword = crypt.encrypt('yourGmailPassword');
 Now run the code using node crypt-test.js
 You will get an encrypted password. Now pass the encrypted one as an argument like:
 
-# node test-mail.js encryptedGmailPassword
+node test-mail.js encryptedGmailPassword
 
